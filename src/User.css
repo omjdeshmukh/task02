@@ -19,7 +19,7 @@
 .userCard {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 300px;
   height: 400px;
   background-color: aqua;
   margin: 20px;
