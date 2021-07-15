@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 233, 207);
+  
+}
+
+.App .header {
+  background-color: rgb(80, 42, 118);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.App .header .logo h1 {
+  font-size: 35px;
+  color: chartreuse;
+  font-weight: 800;
+}
+
+.App .header .logo h1:hover {
+  cursor: pointer;
+}
+
+.App .userContainer {
+  display: flex;
+  /* margin-top: 50px; */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App .header .getDetails button {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: rgb(211, 211, 211);
+}
+
+.App .header .getDetails button:hover {
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
+}
+
+.App .splace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App .splace .preBox {
+  height: 300px;
+  width: 450px;
+  background-color: rgb(121, 220, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(90, 90, 90);
+}
+
+.App .splace .preBox:hover {
+  background-color: rgb(57, 220, 171);
+  transition: 0.3s;
+  cursor: pointer;
+}
